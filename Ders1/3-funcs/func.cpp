@@ -50,7 +50,8 @@ int main() {
 
     Person myPerson = {"John", 25};       // Struct örneği
 
-// int ve float isteyen yere farklı tipler verdik ancak c++ dönüşümü otomatik yapabilidği için yaptı
+// int ve float isteyen yere farklı tipler verdik ancak 
+//c++ dönüşümü otomatik yapabildiği için yaptı
     compare(myShort,myLong);
 
 
