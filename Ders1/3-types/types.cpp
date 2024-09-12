@@ -23,6 +23,7 @@ int main() {
     long long myLongLong = 123456789012345LL;  // Çok uzun tam sayı
 
     // Ondalıklı sayılar
+    
     float myFloat = 3.14f;                // Ondalık sayı (tek duyarlıklı)
     double myDouble = 3.141592653589793;  // Ondalık sayı (çift duyarlıklı)
     long double myLongDouble = 3.141592653589793238L;  // Daha yüksek duyarlıklı ondalık sayı

@@ -10,9 +10,7 @@ int main() {
         cout << messages[i] << endl; 
     }
 
-    for (const string& message : messages) {
-        cout << message << endl;  
-    }
+
 
     int i = 0;
     while (i < 5) {
