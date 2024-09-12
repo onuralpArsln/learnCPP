@@ -31,3 +31,7 @@ int main() {
 // kullanmak için
 // g++ dosya_adi.cpp -o dosya_adi komutu ile compile
 // ./dosya_adi ile linuxte dosya_adi.exe ile windowsta çalıştır
+
+
+// eğer g++ tanınmıyorsa https://code.visualstudio.com/docs/cpp/config-mingw 
+// bu adresi takip ederek yüklemeyi yapabilirsin

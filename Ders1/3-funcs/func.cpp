@@ -13,7 +13,6 @@ void compare(float floatValue, int intValue) {
         std::cout << "floatValue ve intValue eşittir." << std::endl;
     }
 }
-
 int main() {
 
     // Tam sayı tipleri
