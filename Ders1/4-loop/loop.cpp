@@ -13,5 +13,12 @@ int main() {
     for (const string& message : messages) {
         cout << message << endl;  
     }
+
+    int i = 0;
+    while (i < 5) {
+        cout << messages[i] << endl;  
+        i++;  
+    }
+
     return 0;
 }
