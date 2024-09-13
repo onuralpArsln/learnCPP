@@ -29,7 +29,7 @@ int main() {
 
     return 0;
 }
-
+ 
 // kullanmak için
 // g++ dosya_adi.cpp -o dosya_adi komutu ile compile
 // ./dosya_adi ile linuxte dosya_adi.exe ile windowsta çalıştır
