@@ -4,6 +4,8 @@
 // import sırasında başa # koyulur ve kütüphane adı < > arasına yazılır
 #include <iostream>
 
+
+
 int main() {
     // Yazdırma için biraz fazla emek
     std::cout << "Hello, World!" << std::endl;
@@ -35,3 +37,4 @@ int main() {
 
 // eğer g++ tanınmıyorsa https://code.visualstudio.com/docs/cpp/config-mingw 
 // bu adresi takip ederek yüklemeyi yapabilirsin
+// c cpp propertiesde compiler olarak g++ sec çünkü gcc bazen c çalıyon sanıyor
