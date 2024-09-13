@@ -38,3 +38,5 @@ int main() {
 // eğer g++ tanınmıyorsa https://code.visualstudio.com/docs/cpp/config-mingw 
 // bu adresi takip ederek yüklemeyi yapabilirsin
 // c cpp propertiesde compiler olarak g++ sec çünkü gcc bazen c çalıyon sanıyor
+
+// https://ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.htmlpp
