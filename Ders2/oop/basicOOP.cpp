@@ -1,59 +1,71 @@
 #include <iostream>
 #include <string>
 
-// Define the class
+// Sınıf tanımı
 class Person {
 private:
-    // Private data members (accessible only within the class)
+    // Private data kısımları sadece class içinde görülür
     std::string name;
     int age;
 
+// Publicler dışardan da alınır
 public:
-    // Constructor: Initializes data members
-    Person(std::string n, int a) : name(n), age(a) {}
+    // Constructor: verileri başlatır 
+    // parametreleri parantez içinde aldın ama atama farklı 
+    Person(std::string n, int a) : name(n), age(a) {
+        // burası fonksiyonel
+        std::cout << "yeni person olustu " << age << std::endl;
+    }
 
-    // Public member functions (methods accessible outside the class)
+    static int giveNumber(){
+        return 5;
+    }
+
     
-    // Setter for name
+    
+    // Setter  name
     void setName(std::string n) {
         name = n;
     }
 
-    // Getter for name
+    // Getter  name
     std::string getName() const {
         return name;
     }
 
-    // Setter for age
+    // Setter  age
     void setAge(int a) {
         age = a;
     }
 
-    // Getter for age
+    // Getter  age
     int getAge() const {
         return age;
     }
 
-    // A method to display Person's information
+    // genel bilgiler
     void displayInfo() const {
         std::cout << "Name: " << name << ", Age: " << age << std::endl;
     }
 };
 
-// Main function
+// asıl fonksiyonel kod
 int main() {
-    // Create an object of class Person
+    // obje oluşumu
     Person person1("Alice", 30);
 
-    // Accessing public member functions
+    // bilgileri gör
     person1.displayInfo();
 
-    // Modify data members using setter functions
+    // setterlar ile güncelle
     person1.setName("Bob");
     person1.setAge(25);
 
-    // Display updated information
+    // bilgiyi yeniden gör
     person1.displayInfo();
+
+    // burayı yorumdan çıkart ve hata al
+    //std::cout << "Name: " << person1.name << ", Age: " << person1.age << std::endl;
 
     return 0;
 }
