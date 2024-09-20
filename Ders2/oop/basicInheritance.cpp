@@ -78,6 +78,12 @@ int main() {
     circle->draw();
     cout << "Circle area: " << circle->area() << endl;
 
+    // bu pointerdan olduğu için böyle nokta ile çağırma olmaz
+    //circle.draw();
+
+    // Nokta Operatörü (.): Doğrudan bir nesne üzerinden metod çağırmak için kullanılır.
+    // Ok Operatörü (->): Pointer ile gösterilen bir nesne üzerinden metod çağırmak için kullanılır.
+
     rectangle->draw();
     cout << "Rectangle area: " << rectangle->area() << endl;
 
