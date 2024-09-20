@@ -66,6 +66,7 @@ void autoDrawer( Shape* shape){
     shape->draw();
 }
 
+
 int main() {
     // Circle ve Rectangle nesneleri oluşturuyoruz
     // bir Shape pointerı shapeten miras alan iki farklı yapıya da işaret edebilir
@@ -80,7 +81,7 @@ int main() {
     rectangle->draw();
     cout << "Rectangle area: " << rectangle->area() << endl;
 
-
+    autoDrawer(circle);
 
 
     // Bellek temizliği - çöpü kendin çıkarırsın
