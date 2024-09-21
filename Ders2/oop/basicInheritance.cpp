@@ -11,7 +11,21 @@ public:
     virtual double area() = 0;
 
     // =0 ifadesi fonksiyonun pure virtual olduğunu ve  
-    // inheritte tanımlanmasını söyler
+    // inheritte tanımlanmasını söyler ve mecbur kılar
+
+
+// virtaul diyip normal tanımlarsan bu override edilmeye izin veren bir yapı olur
+    virtual void tellType() {
+    // Varsayılan bir davranış olabilir.
+    std::cout << "Bu bir geometri şekli" << std::endl;
+    }
+
+    void tellOrigin() {
+    // Varsayılan bir davranış olabilir.
+    std::cout << "Bu bir shapeten türedi" << std::endl;
+    }
+    
+
 };
 
 // Derived class - bu child gibidir
