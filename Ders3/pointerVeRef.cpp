@@ -10,6 +10,10 @@ int main()
     std::cout << *ptr << std::endl; // a'nın değerini yazdırır: 10
     std::cout << ptr << std::endl;  // anın adresini yazar
 
+    std::cout << a << std::endl;
+    std::cout << &a << std::endl;
+    std::cout << *&a << std::endl;
+
     // ptr adrestir *ptr adresteki değer
 
     *ptr = 20; // a artık 20
@@ -20,9 +24,8 @@ int main()
 
     std::cout << ref << std::endl;
 
-    ref = 40;       
-    std::cout << b << std::endl; 
+    ref = 40;
+    std::cout << b << std::endl;
 
-// referance null olamaz ama pointer null olabilir
-    
+    // referance null olamaz ama pointer null olabilir
 }

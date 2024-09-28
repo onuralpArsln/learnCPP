@@ -9,7 +9,7 @@ void staticArray(){
 }
 
 void dynamicArray(){
-     int size;
+    int size;
     std::cout << "Dizi boyutunu girin: ";
     std::cin >> size;
 
