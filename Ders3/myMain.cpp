@@ -36,6 +36,6 @@ Bitler bilgisayar dilinde 0 ve 1 i temsil ederler.
 Byte, 8 Bit'ten oluşur ve 0'dan 255'e kadar olan sayıları temsil edebilir. 
 Byte büyük B ile gösterilir, Bit ise küçük b ile gösterilir. 
 Yani 1 byte 8 bit büyüklüğündedir.
-
+ 
 */
 
