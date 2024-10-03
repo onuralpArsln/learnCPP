@@ -11,9 +11,10 @@ int main() {
     printMessage("Hello, World!");
 
 
-std::cout << "defValue from header  is: " << defValue << std::endl;
+    std::cout << "defValue from header  is: " << defValue << std::endl;
 
 
 
     return 0;
 }
+

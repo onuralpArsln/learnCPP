@@ -14,7 +14,7 @@ public:
     // inheritte tanımlanmasını söyler ve mecbur kılar
 
 
-// virtaul diyip normal tanımlarsan bu override edilmeye izin veren bir yapı olur
+// virtual deyip normal tanımlarsan bu override edilmeye izin veren bir yapı olur
     virtual void tellType() {
     // Varsayılan bir davranış olabilir.
     std::cout << "Bu bir geometri şekli" << std::endl;
@@ -64,6 +64,10 @@ public:
         return width * height;
     }
 
+    void tellType() override  {
+    std::cout << "Bu bir dikdörtgen geometrik şekli" << std::endl;
+    }
+
 // dışarda tanımlamalık fonksiyonun bir prototipi bunu headerda da yapabilirdik
     string outerFunc();
 };
@@ -85,6 +89,8 @@ int main() {
     // Circle ve Rectangle nesneleri oluşturuyoruz
     // bir Shape pointerı shapeten miras alan iki farklı yapıya da işaret edebilir
     // 
+
+    Circle makulCircle(4.5);
     Shape* circle = new Circle(5.0);
     Shape* rectangle = new Rectangle(4.0, 6.0);
 

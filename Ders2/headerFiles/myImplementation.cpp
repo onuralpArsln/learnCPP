@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 
-// headerda imzası tanımlanan fonksiyonlaru burada açıkla define et
+// headerda imzası tanımlanan fonksiyonları burada açıkla define et
 
 int add(int a, int b) {
     return a + b;
