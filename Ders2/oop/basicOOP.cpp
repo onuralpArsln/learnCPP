@@ -20,8 +20,6 @@ public:
     static int giveNumber(){
         return 5;
     }
-
-    
     
     // Setter  name
     void setName(std::string n) {
@@ -66,6 +64,6 @@ int main() {
 
     // burayı yorumdan çıkart ve hata al
     //std::cout << "Name: " << person1.name << ", Age: " << person1.age << std::endl;
-
+    // neden hata aldık -> age ve name person classında private
     return 0;
 }
