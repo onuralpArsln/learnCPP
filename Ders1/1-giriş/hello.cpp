@@ -7,7 +7,7 @@
 
 
 int main() {
-    // Yazdırma için biraz fazla emek
+    // cdeki printf burada yok
     std::cout << "Hello, World!" << std::endl;
 
     // değişkenler önce tip sonra isim olarak tanımlanır 
