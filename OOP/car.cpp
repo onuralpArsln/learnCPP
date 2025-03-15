@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Base class
+// temel sınıf 
 class Vehicle
 {
 protected:
@@ -9,7 +9,7 @@ protected:
     int speed;
 
 public:
-    Vehicle(std::string b, int s) : brand(b), speed(s) {}   // construtor
+    Vehicle(std::string b, int s) : brand(b), speed(s) {}   // constructor
 
     void outsideFunc(); // bunu aşağıda tanımladık
 
@@ -40,7 +40,7 @@ public:
 
     void displayInfo() override
     {
-        Vehicle::displayInfo(); // parent class methodunu çağırmak 
+        Vehicle::displayInfo(); // parent class metodunu çağırmak 
         std::cout << "Doors: " << doors << "\n";
     }
 };
